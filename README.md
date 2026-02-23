@@ -1,6 +1,6 @@
 # PM AI Playbook
 
-A catalog of AI practices built and tested by a product manager — one year of daily experimentation with Claude Code. Continuously updated as new things are explored.
+A catalog of AI practices built and tested by a product manager — one year of daily experimentation with agentic coding mainly focused on Claude Code and n8n automation. A growing catalog as new things are explored.
 
 ## Catalog
 
