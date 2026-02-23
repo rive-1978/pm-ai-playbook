@@ -1,4 +1,4 @@
-Claude plugins
+# Claude plugins
 
 Curated Claude code plugins.
 
