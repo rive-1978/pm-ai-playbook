@@ -1,4 +1,4 @@
-# AI Best Practices
+# PM AI Playbook
 
 A catalog of AI practices built and tested by a product manager — one year of daily experimentation with Claude Code. Continuously updated as new things are explored.
 
