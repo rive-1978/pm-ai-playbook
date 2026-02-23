@@ -1,15 +1,14 @@
 # AI Best Practices
 
-This repository curates best practices for AI workflows and concepts, organized by topic for quick discovery and reuse.
+A catalog of reusable AI practices built by a product manager — one year of daily experimentation with Claude Code, distilled into skills, workflows, hooks, and rules you can copy directly into your own setup.
 
-## Table of contents
-- [Overview](#overview)
+## Catalog
 
-## Overview
-| Name | Purpose | When to use | Link |
-| --- | --- | --- | --- |
-| Skills | Reusable workflows, mental models, and AI behavior patterns | When you want reusable workflows, mental models, or AI behavior patterns | [./skills](./skills) |
-| Agents | Focused AI personas for specific development domains | When you need a focused AI persona for code review, security, or PM work | [./agents](./agents) |
-| Commands | Slash command templates for recurring prompts and multi-step tasks | When automating recurring prompts or multi-step workflows | [./commands](./commands) |
-| Rules | Coding and workflow standards for CLAUDE.md files | When configuring standards for a project or globally across Claude sessions | [./rules](./rules) |
-| Workflows | Structured multi-step process templates | When adopting a repeatable multi-step process (e.g. n8n, Zapier) | [./workflows](./workflows) |
+|     | Category      | What's inside                                                                          | Link                       |
+| --- | ------------- | -------------------------------------------------------------------------------------- | -------------------------- |
+| 🗺️  | **Workflows** | 8 PM decision chains (JTBD → First Principles → Pre-Mortem) + 8 spec-driven frameworks | [./workflows](./workflows) |
+| 🧠  | **Skills**    | 25+ reusable AI behavior patterns across 9 domains                                     | [./skills](./skills)       |
+| 🤖  | **Agents**    | Focused AI personas: security reviewer, architect                                      | [./agents](./agents)       |
+| ⚙️  | **Hooks**     | Automation scripts that run on file edits and git events                               | [./hooks](./hooks)         |
+| 📋  | **Rules**     | Coding and workflow standards for Claude Code sessions                                 | [./rules](./rules)         |
+| 💬  | **Commands**  | Slash command templates for recurring multi-step tasks                                 | [./commands](./commands)   |
