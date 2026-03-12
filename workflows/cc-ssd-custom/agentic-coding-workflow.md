@@ -163,6 +163,9 @@ Source: [`hooks/`](../../hooks/)
 Skills are invoked by Claude when relevant. Copy any that match your stack:
 
 ```bash
+# Intent exploration (recommended — powers the /kiro:intent-explore command)
+cp -r skills/productmanagement-skills/intent-explorer/ <your-project>/.claude/skills/
+
 # Coding guidelines (recommended for all projects)
 cp -r skills/agentic-skills/karpathy-guidelines/ <your-project>/.claude/skills/
 
@@ -181,6 +184,7 @@ Source: [`skills/`](../../skills/)
 
 | Skill                                                                                      | When                                              |
 | ------------------------------------------------------------------------------------------ | ------------------------------------------------- |
+| [`intent-explorer`](../../skills/productmanagement-skills/intent-explorer/)                | Intent exploration before spec phases             |
 | [`karpathy-guidelines`](../../skills/agentic-skills/karpathy-guidelines/)                  | Writing code (reduces common LLM coding mistakes) |
 | [`six-thinking-hats`](../../skills/testing-skills/six-thinking-hats/)                      | Test quality analysis, test strategy design       |
 | [`security-threat-model`](../../skills/security-skills/security-threat-model/)             | Pre-deployment, security-sensitive features       |
@@ -521,6 +525,7 @@ Invoked when relevant (the "1% rule": even 1% chance of relevance = invoke it). 
 
 | Skill                                                                                      | When                                            |
 | ------------------------------------------------------------------------------------------ | ----------------------------------------------- |
+| [`intent-explorer`](../../skills/productmanagement-skills/intent-explorer/)                | Intent exploration before spec phases           |
 | `superpowers:brainstorming`                                                                | Before creative or exploratory work             |
 | [`karpathy-guidelines`](../../skills/agentic-skills/karpathy-guidelines/)                  | When writing code (reduces common LLM mistakes) |
 | [`vercel-react-best-practices`](../../skills/frontend-skills/vercel-react-best-practices/) | When writing React/Next.js components           |
