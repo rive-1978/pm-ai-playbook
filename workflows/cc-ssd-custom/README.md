@@ -2,6 +2,8 @@
 
 A spec-driven, human-gated development workflow for Claude Code. Design before code, tests before implementation, humans approve at every gate. This guide walks you through installing the full pipeline in your own project, using components from this repository as the source to copy from.
 
+This project is a fork of gotalab’s project, originally licensed under the MIT License.
+
 ---
 
 ## Table of Contents
