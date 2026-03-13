@@ -50,7 +50,7 @@ flowchart LR
     style Merge fill:#4a3,stroke:#333,color:#fff
 ```
 
-**Why gates matter:** Without explicit approval between phases, an AI agent can build the wrong thing very quickly. Gates force alignment on _what_ before investing in _how_.
+**Why gates matter:** Without explicit approval between phases, an AI agent can build the wrong thing very quickly. Gates force alignment on the _Why_ and _what_ before investing in _how_.
 
 **Entry point hierarchy:** Intent Explore (recommended) → Spec Init (quick-start). Stronger grounding produces better requirements downstream.
 
