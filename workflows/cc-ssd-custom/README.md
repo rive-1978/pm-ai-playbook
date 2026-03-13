@@ -518,8 +518,8 @@ These skills are blocking requirements — Claude must invoke them before writin
 
 | Skill                                 | Trigger                                               | Enforcement                                                      |
 | ------------------------------------- | ----------------------------------------------------- | ---------------------------------------------------------------- |
-| `superpowers:test-driven-development` | Before any Edit/Write for features, bugs, refactoring | RED → GREEN → REFACTOR. No exceptions for "simple" or "low risk" |
-| `superpowers:systematic-debugging`    | Before proposing any fix for bugs or test failures    | Evidence-based root cause analysis before any code change        |
+| [`superpowers:test-driven-development`](https://github.com/obra/superpowers) | Before any Edit/Write for features, bugs, refactoring | RED → GREEN → REFACTOR. No exceptions for "simple" or "low risk" |
+| [`superpowers:systematic-debugging`](https://github.com/obra/superpowers)    | Before proposing any fix for bugs or test failures    | Evidence-based root cause analysis before any code change        |
 
 #### Advisory Skills
 
@@ -528,7 +528,7 @@ Invoked when relevant (the "1% rule": even 1% chance of relevance = invoke it). 
 | Skill                                                                                      | When                                            |
 | ------------------------------------------------------------------------------------------ | ----------------------------------------------- |
 | [`intent-explorer`](../../skills/productmanagement-skills/intent-explorer/)                | Intent exploration before spec phases           |
-| `superpowers:brainstorming`                                                                | Before creative or exploratory work             |
+| [`superpowers:brainstorming`](https://github.com/obra/superpowers)                                                                | Before creative or exploratory work             |
 | [`karpathy-guidelines`](../../skills/agentic-skills/karpathy-guidelines/)                  | When writing code (reduces common LLM mistakes) |
 | [`vercel-react-best-practices`](../../skills/frontend-skills/vercel-react-best-practices/) | When writing React/Next.js components           |
 | [`frontend-patterns`](../../skills/frontend-skills/frontend-patterns/)                     | When building UI components                     |
