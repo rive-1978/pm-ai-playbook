@@ -16,14 +16,11 @@ A catalog of reusable skills and mental models for AI work, organized by categor
 
 ## 🌐 General skills
 
-
 | Name           | Purpose                              | When to use                           | Link                                     |
 | -------------- | ------------------------------------ | ------------------------------------- | ---------------------------------------- |
 | Skills website | Browse and discover skills resources | When browsing skills outside the repo | [https://skills.sh/](https://skills.sh/) |
 
-
 ## 🤖 Agentic skills
-
 
 | Name                | Purpose                                                                                                         | When to use                                  | Link                                                                         |
 | ------------------- | --------------------------------------------------------------------------------------------------------------- | -------------------------------------------- | ---------------------------------------------------------------------------- |
@@ -31,17 +28,13 @@ A catalog of reusable skills and mental models for AI work, organized by categor
 | Skill creator       | Formalize repeatable practices into skills                                                                      | When you want a reusable workflow            | [./agentic-skills/skill-creator](./agentic-skills/skill-creator)             |
 | Karpathy guidelines | Behavioral guardrails to reduce LLM coding mistakes (think first, keep it simple, surgical diffs, goal-driven). | When writing, reviewing, or refactoring code | [./agentic-skills/karpathy-guidelines](./agentic-skills/karpathy-guidelines) |
 
-
 ## ⚙️ Backend skills
-
 
 | Name             | Purpose                                                                                          | When to use                            | Link                                                                   |
 | ---------------- | ------------------------------------------------------------------------------------------------ | -------------------------------------- | ---------------------------------------------------------------------- |
 | Backend Patterns | Backend architecture patterns, API design, database optimization, and server-side best practices | When building scalable backend systems | [./backend-skills/backend-patterns](./backend-skills/backend-patterns) |
 
-
 ## 📝 Documentation skills
-
 
 | Name                          | Purpose                                                                                               | When to use                                                                                                  | Link                                                                                                         |
 | ----------------------------- | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ |
@@ -49,9 +42,7 @@ A catalog of reusable skills and mental models for AI work, organized by categor
 | Writing clearly and concisely | Applies Strunk's rules to produce cleaner documentation, commit messages, error messages, and UI text | When writing documentation, commit messages, error messages, UI copy, reports, or any explanation for humans | [./documentation-skills/writing-clearly-and-concisely](./documentation-skills/writing-clearly-and-concisely) |
 | Codedocs                      | Generate AI-agent-friendly structured documentation for any git repo or directory                     | When generating, querying, or updating codebase documentation for AI agents and developers                   | [./documentation-skills/codedocs](./documentation-skills/codedocs)                                           |
 
-
 ## 🎨 Frontend skills
-
 
 | Name                        | Purpose                                                                                          | When to use                                                                                       | Link                                                                                           |
 | --------------------------- | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
@@ -59,30 +50,27 @@ A catalog of reusable skills and mental models for AI work, organized by categor
 | Frontend Patterns           | Frontend development patterns for React, Next.js, state management, and performance optimization | When you want a reference for React/Next.js patterns, not just any frontend project               | [./frontend-skills/frontend-patterns](./frontend-skills/frontend-patterns)                     |
 | Vercel React Best Practices | React and Next.js performance optimization guidelines from Vercel Engineering                    | When writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns | [./frontend-skills/vercel-react-best-practices](./frontend-skills/vercel-react-best-practices) |
 
-
 ## 💡 Meta skills
 
-
-| Name                           | Purpose                                                           | When to use                                                                       | Link                                                                                               |
-| ------------------------------ | ----------------------------------------------------------------- | --------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
-| Collision-Zone Thinking        | Force unrelated concepts together to discover emergent properties | When conventional approaches feel inadequate and you need breakthrough innovation | [./meta-skills/collision-zone-thinking](./meta-skills/collision-zone-thinking)                     |
-| Idea challenger                | Pressure-test new ideas and assumptions                           | Before committing to a new initiative                                             | [./meta-skills/idea-challenger](./meta-skills/idea-challenger)                                     |
-| Inversion exercise             | Flip assumptions to reveal constraints                            | When problem framing feels stuck                                                  | [./meta-skills/inversion-exercise](./meta-skills/inversion-exercise)                               |
-| Meta-pattern recognition       | Identify recurring patterns across domains                        | When you notice the same problem pattern recurring in 3+ different contexts       | [./meta-skills/meta-pattern-recognition](./meta-skills/meta-pattern-recognition)                   |
-| Root cause tracing             | Trace issues back to the original trigger                         | When debugging failures or regressions                                            | [./meta-skills/root-cause-tracing](./meta-skills/root-cause-tracing)                               |
-| Scale game                     | Stress-test ideas at extreme scales                               | When validating robustness                                                        | [./meta-skills/scale-game](./meta-skills/scale-game)                                               |
-| Simplification cascades        | Find one insight that removes components                          | When reducing complexity                                                          | [./meta-skills/simplification-cascades](./meta-skills/simplification-cascades)                     |
-| The challenger                 | Red-team product bets for failure modes                           | Before major investments or launches                                              | [./meta-skills/the-challenger](./meta-skills/the-challenger)                                       |
-| Verification before completion | Validate results before declaring done                            | Before handing off or shipping                                                    | [./testing-skills/verification-before-completion](./testing-skills/verification-before-completion) |
-| When stuck                     | Pick a clear next troubleshooting move                            | When progress stalls or errors persist                                            | [./meta-skills/when-stuck](./meta-skills/when-stuck)                                               |
-
+| Name                           | Purpose                                                                            | When to use                                                                       | Link                                                                                               |
+| ------------------------------ | ---------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| Collision-Zone Thinking        | Force unrelated concepts together to discover emergent properties                  | When conventional approaches feel inadequate and you need breakthrough innovation | [./meta-skills/collision-zone-thinking](./meta-skills/collision-zone-thinking)                     |
+| Grill me                       | Relentless Socratic interview that resolves every branch of a plan's decision tree | When stress-testing a plan or design through structured dialogue                  | [./meta-skills/grill-me](./meta-skills/grill-me)                                                   |
+| Idea challenger                | Pressure-test new ideas and assumptions                                            | Before committing to a new initiative                                             | [./meta-skills/idea-challenger](./meta-skills/idea-challenger)                                     |
+| Inversion exercise             | Flip assumptions to reveal constraints                                             | When problem framing feels stuck                                                  | [./meta-skills/inversion-exercise](./meta-skills/inversion-exercise)                               |
+| Meta-pattern recognition       | Identify recurring patterns across domains                                         | When you notice the same problem pattern recurring in 3+ different contexts       | [./meta-skills/meta-pattern-recognition](./meta-skills/meta-pattern-recognition)                   |
+| Root cause tracing             | Trace issues back to the original trigger                                          | When debugging failures or regressions                                            | [./meta-skills/root-cause-tracing](./meta-skills/root-cause-tracing)                               |
+| Scale game                     | Stress-test ideas at extreme scales                                                | When validating robustness                                                        | [./meta-skills/scale-game](./meta-skills/scale-game)                                               |
+| Simplification cascades        | Find one insight that removes components                                           | When reducing complexity                                                          | [./meta-skills/simplification-cascades](./meta-skills/simplification-cascades)                     |
+| The challenger                 | Red-team product bets for failure modes                                            | Before major investments or launches                                              | [./meta-skills/the-challenger](./meta-skills/the-challenger)                                       |
+| Verification before completion | Validate results before declaring done                                             | Before handing off or shipping                                                    | [./testing-skills/verification-before-completion](./testing-skills/verification-before-completion) |
+| When stuck                     | Pick a clear next troubleshooting move                                             | When progress stalls or errors persist                                            | [./meta-skills/when-stuck](./meta-skills/when-stuck)                                               |
 
 ## 📦 Product management skills
 
 For multi-step PM workflow sequences combining these skills, see [Workflows](../workflows).
 
 ### Individual Skills
-
 
 | Name                        | Purpose                                                                                          | When to use                                                               | Link                                                                                                             |
 | --------------------------- | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
@@ -93,23 +81,17 @@ For multi-step PM workflow sequences combining these skills, see [Workflows](../
 | Intent Explorer             | Explore intent behind a problem through structured dialogue, producing an agent-ready intentSpec | When starting a new feature and the real user need is unclear             | [./productmanagement-skills/intent-explorer](./productmanagement-skills/intent-explorer)                         |
 | Pre-Mortem Analyst          | Imagine the project already failed, then work backward to find why                               | Before launching projects or when assessing risk                          | [./productmanagement-skills/pre-mortem-analyst](./productmanagement-skills/pre-mortem-analyst)                   |
 
-
 ## 🧪 Testing skills
-
 
 | Name              | Purpose                                                                                                              | When to use                                                                                                                  | Link                                                                     |
 | ----------------- | -------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
 | Six Thinking Hats | Apply Edward de Bono's Six Thinking Hats methodology for comprehensive quality analysis                              | When designing test strategies, conducting test retrospectives, analyzing test failures, or facilitating testing discussions | [./testing-skills/six-thinking-hats](./testing-skills/six-thinking-hats) |
 | E2E Testing       | Full end-to-end browser testing with parallel research agents, screenshot capture, database validation, and auto-fix | After implementation to validate every user journey before code review                                                       | [./testing-skills/e2e-testing](./testing-skills/e2e-testing)             |
 
-
 ## 🔒 Security skills
-
 
 | Name                  | Purpose                                                                                             | When to use                                                                                                        | Link                                                                               |
 | --------------------- | --------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
 | Defense-in-depth      | Add checks at each layer to prevent defects                                                         | When workflows have multiple handoffs or failure points                                                            | [./security-skills/defense-in-depth](./security-skills/defense-in-depth)           |
 | Security Threat Model | Repository-grounded threat modeling with enumerated trust boundaries, abuse paths, and mitigations  | When explicitly asked to threat model a codebase, enumerate threats/abuse paths, or perform AppSec threat modeling | [./security-skills/security-threat-model](./security-skills/security-threat-model) |
 | Skill Audit           | Security analysis of AI agent skills for prompt injection, permission abuse, and supply chain risks | When auditing skills for security vulnerabilities, trust verification, or quality gating                           | [./security-skills/skill-audit](./security-skills/skill-audit)                     |
-
-
