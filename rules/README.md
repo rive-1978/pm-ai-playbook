@@ -12,14 +12,15 @@ Rules for CLAUDE.md files, both globally and project-specific.
 
 Templates and enforcement rules for CLAUDE.md files.
 
-| Name              | Purpose                                                               | When to use                                                   | Link                                                                             |
-| ----------------- | --------------------------------------------------------------------- | ------------------------------------------------------------- | -------------------------------------------------------------------------------- |
-| Coding Guidelines | Behavioral guardrails to reduce common LLM coding mistakes            | Apply to all coding work as baseline                          | [./global/coding-guidelines-template.md](./global/coding-guidelines-template.md) |
-| TDD Enforcement   | Enforce red-green-refactor discipline and coverage expectations       | When writing or updating code with tests                      | [./global/tdd-enforcement-template.md](./global/tdd-enforcement-template.md)     |
-| Debugging         | Systematic debugging process before proposing fixes                   | When encountering bugs, test failures, or unexpected behavior | [./global/debugging-template.md](./global/debugging-template.md)                 |
-| Project Template  | Template for project-level rules setup                                | When creating or refreshing project-specific standards        | [./global/project-template.md](./global/project-template.md)                     |
-| Global Template   | Template for new global standard docs                                 | When adding a new global standard                             | [./global/global-template.md](./global/global-template.md)                       |
-| Token Efficiency  | Context efficiency guidelines — respond with the delta, not the state | When adding context management guidance to a global CLAUDE.md | [./global/token-efficiency-template.md](./global/token-efficiency-template.md)   |
+| Name              | Purpose                                                                                     | When to use                                                    | Link                                                                             |
+| ----------------- | ------------------------------------------------------------------------------------------- | -------------------------------------------------------------- | -------------------------------------------------------------------------------- |
+| Coding Guidelines | Behavioral guardrails to reduce common LLM coding mistakes                                  | Apply to all coding work as baseline                           | [./global/coding-guidelines-template.md](./global/coding-guidelines-template.md) |
+| TDD Enforcement   | Enforce red-green-refactor discipline and coverage expectations                             | When writing or updating code with tests                       | [./global/tdd-enforcement-template.md](./global/tdd-enforcement-template.md)     |
+| Debugging         | Systematic debugging process before proposing fixes                                         | When encountering bugs, test failures, or unexpected behavior  | [./global/debugging-template.md](./global/debugging-template.md)                 |
+| Project Template  | Template for project-level rules setup                                                      | When creating or refreshing project-specific standards         | [./global/project-template.md](./global/project-template.md)                     |
+| Global Template   | Template for new global standard docs                                                       | When adding a new global standard                              | [./global/global-template.md](./global/global-template.md)                       |
+| Token Efficiency  | Context efficiency guidelines — respond with the delta, not the state                       | When adding context management guidance to a global CLAUDE.md  | [./global/token-efficiency-template.md](./global/token-efficiency-template.md)   |
+| Learning Loop     | Structured knowledge extraction into domain-specific learnings folders with promotion logic | When adding continuous learning behavior to a global CLAUDE.md | [./global/claude-learning-template.md](./global/claude-learning-template.md)     |
 
 ## 📦 Project rules
 
